@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-family: onion;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-family: raleway;
+}
+p{
+    text-align: center;
+    color:white;
+    font-family: raleway;
+}
