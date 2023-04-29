@@ -45,3 +45,21 @@ nav{
     margin-top: 1cm;
     line-height:200%;
 }
+
+@keyframes fadein {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 100;
+    }
+  }
+  
+  body {
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fadein;
+
+  }
