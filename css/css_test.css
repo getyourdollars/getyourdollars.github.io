@@ -5,7 +5,7 @@ body{
 h1{
     color:white;
     text-align: center;
-    font-family: a_GroticTitulShHv;
+    font-family: notable, futura, rubik mono one;
     font-size: 70px;
     margin-left: 2cm;
     margin-right: 2cm;
@@ -16,7 +16,7 @@ h1{
 h2{
     text-align: center;
     color:white;
-    font-family: raleway;
+    font-family: poppins, montserrat, roboto;
     margin-left: 2cm;
     margin-right: 2cm;
     margin-bottom:1cm;
@@ -26,7 +26,7 @@ h2{
 p{
     text-align:center;
     color:white;
-    font-family: raleway;
+    font-family: poppins, montserrat, roboto;
     margin-left: 2cm;
     margin-right: 2cm;
     margin-bottom:1cm;
@@ -37,13 +37,17 @@ p{
 nav{
     text-align: center;
     color:white;
-    font-family: raleway;
+    font-family: poppins, montserrat, roboto;
     font-weight: bold;
     margin-left: 2cm;
     margin-right: 2cm;
     margin-bottom:1cm;
     margin-top: 1cm;
     line-height:200%;
+}
+
+a{
+  color:cornflowerblue;
 }
 
 @keyframes fadein {
@@ -63,3 +67,10 @@ nav{
     animation-name: fadein;
 
   }
+
+  div.className{
+    position:absolute;
+    margin-left: -250px; /* very important for the image to be centered */
+    left:50%;
+    bottom:0px;
+    }
