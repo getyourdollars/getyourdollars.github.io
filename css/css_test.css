@@ -68,9 +68,11 @@ a{
 
   }
 
-  div.className{
-    position:absolute;
-    margin-left: -250px; /* very important for the image to be centered */
-    left:50%;
-    bottom:0px;
+  div{
+  background-image: url(https://i.postimg.cc/xCvYrfzg/meet-the-queens.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     }
+    
